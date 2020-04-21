@@ -13,6 +13,8 @@ from email.message import EmailMessage
 sender = "aguilarsunny@yahoo.com"
 recipient = "vluedevil@yahoo.com"
 
+message['From'] = sender
+
 message = EmailMessage()
 print(message)
 
