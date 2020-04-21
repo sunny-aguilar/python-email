@@ -17,7 +17,7 @@ function push_commit()
 function commit()
 {
     # commt changes only
-    git commit -am 'web api'
+    git commit -am 'email script'
 }
 
 # what to run
