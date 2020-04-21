@@ -20,7 +20,7 @@ message['To'] = recipient
 
 message['Subject'] = 'Greetings from {} to {}!'.format(sender, recipient)
 
-body = """Hey there!
+body = 'Hey there!'
 
 print(message)
 
