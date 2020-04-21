@@ -22,7 +22,7 @@ message['Subject'] = 'Greetings from {} to {}!'.format(sender, recipient)
 
 body = "Hey there! I'm learning to send emails using Python!"
 
-
+message.set_content(body)
 
 print(message)
 
