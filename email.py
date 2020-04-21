@@ -8,6 +8,7 @@
 #   Date:       April 20, 2020
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import os
+import smtplib
 from email.message import EmailMessage
 
 sender = "aguilarsunny@yahoo.com"
