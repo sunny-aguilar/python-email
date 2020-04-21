@@ -15,6 +15,7 @@ recipient = "vluedevil@yahoo.com"
 
 
 message = EmailMessage()
+
 message['From'] = sender
 message['To'] = recipient
 
