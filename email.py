@@ -11,8 +11,8 @@ import os
 import smtplib
 from email.message import EmailMessage
 
-sender = "aguilarsunny@yahoo.com"
-recipient = "vluedevil@yahoo.com"
+sender = "sender@yahoo.com"
+recipient = "receiver@yahoo.com"
 
 message = EmailMessage()
 
