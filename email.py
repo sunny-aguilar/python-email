@@ -10,7 +10,7 @@
 import os
 from email.message import EmailMessage
 
->>> sender = "me@example.com"
+sender = "me@example.com"
 >>> recipient = "you@example.com"
 message = EmailMessage()
 print(message)
