@@ -14,6 +14,7 @@ sender = "aguilarsunny@yahoo.com"
 recipient = "vluedevil@yahoo.com"
 
 message['From'] = sender
+message['To'] = recipient
 
 message = EmailMessage()
 print(message)
