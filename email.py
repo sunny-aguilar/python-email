@@ -11,7 +11,7 @@ import os
 from email.message import EmailMessage
 
 sender = "aguilarsunny@yahoo.com"
-recipient = "you@example.com"
+recipient = "vluedevil@example.com"
 message = EmailMessage()
 print(message)
 
