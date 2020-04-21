@@ -18,7 +18,7 @@ message = EmailMessage()
 message['From'] = sender
 message['To'] = recipient
 
-
+message['Subject'] = 'Greetings from {} to {}!'.format(sender, recipient)
 
 print(message)
 
