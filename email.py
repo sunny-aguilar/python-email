@@ -22,6 +22,8 @@ message['Subject'] = 'Greetings from {} to {}!'.format(sender, recipient)
 
 body = "Hey there! I'm learning to send emails using Python!"
 
+
+
 print(message)
 
 
